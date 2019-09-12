@@ -22,7 +22,7 @@ let i = 1;
 
 const mainHeader = arr => {
   setInterval(() => {
-    headerBg.style.background = `url("../img/${arr[i]}.png") no-repeat center`;
+    headerBg.style.background = `url("./img/${arr[i]}.png") no-repeat center`;
     headerBg.style.background = `background-position: center;`;
     headerBg.style.background = `background-size: cover;`;
     i++;
