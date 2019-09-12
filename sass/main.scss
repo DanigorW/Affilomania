@@ -1,0 +1,21 @@
+@import "./main-header.scss";
+@import "./steps.scss";
+@import "./footer.scss";
+@import "./testimonials.scss";
+@import "./popup.scss";
+*,
+*::after,
+*::before {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: sans-serif;
+}
+
+.display-block {
+  display: block;
+}

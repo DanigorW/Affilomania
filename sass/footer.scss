@@ -1,0 +1,21 @@
+footer {
+  background: #6939af;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  .part1 {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .part2 {
+    margin: 2rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .part1 {
+    width: auto !important;
+    margin: 0 auto;
+  }
+}

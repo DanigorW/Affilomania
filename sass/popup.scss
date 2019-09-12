@@ -1,0 +1,33 @@
+/* displayed only after form submit */
+
+.submit-form-ss {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  height: 50vh;
+  z-index: 100;
+
+  .submit-form-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-transform: uppercase;
+    background: #20bb95;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+
+  h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

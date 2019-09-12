@@ -1,0 +1,266 @@
+.yellow-div {
+  height: 5px;
+  width: 200px;
+  background: #fdf5b9;
+}
+
+.main-header {
+  height: 85vh;
+  background: url("../img/bus.png") no-repeat center;
+  background-position: center;
+  background-size: cover !important;
+  transition: all 1s;
+
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 7rem;
+  }
+
+  .top-icons {
+    display: flex;
+
+    .icon {
+      margin: 0 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      p {
+        color: #fff;
+        display: block;
+      }
+
+      span {
+        color: #fff;
+      }
+
+      .icon-content {
+        margin: 0 0.5rem;
+        padding: 0 !important;
+
+        p {
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+
+.free-demo {
+  position: absolute;
+  top: 4%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.5rem;
+  width: 150px;
+  text-align: center;
+  font-size: 1.5rem;
+  background: #fdf5b9;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+  p {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+  }
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+.area {
+  display: flex;
+  justify-content: space-between;
+  width: 338px;
+  option,
+  select {
+    height: 46px;
+  }
+
+  input {
+    width: 70%;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #20bb95;
+  width: 376px;
+  padding: 20px;
+  position: relative;
+
+  .error {
+    display: none;
+    background: red;
+    color: #fff;
+    position: absolute;
+    top: -16px;
+    margin: 0;
+    padding: 0;
+    p {
+      padding: 5px;
+      margin: 0;
+    }
+  }
+
+  input {
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+    height: 46px;
+    padding: 10px;
+  }
+
+  .checkbox {
+    cursor: pointer;
+    color: #fff;
+    width: 100%;
+
+    input {
+      font-size: 12px;
+      height: 25px;
+      align-items: flex-start;
+      width: 25px;
+    }
+
+    label {
+      display: flex;
+    }
+
+    span {
+      font-size: 13px;
+      margin: 0 2px;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      transition: all 0.5s;
+
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+
+  .btn {
+    color: #6939af;
+    background: #fff077;
+    text-transform: uppercase;
+    width: 100%;
+    height: 46px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.5s;
+
+    &:hover {
+      color: #000;
+      background: yellow;
+    }
+  }
+}
+
+.typing {
+  margin-top: 15rem;
+
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #fff;
+  }
+
+  .yellow-div {
+    margin: 1.5rem 0;
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: #fff;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main-header {
+    height: auto;
+  }
+
+  .logo {
+    margin: 0 auto;
+  }
+
+  .nav {
+    justify-content: center;
+  }
+
+  .typing {
+    justify-content: center;
+    h2 {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    .yellow-div {
+      text-align: center;
+      margin: 1rem auto;
+    }
+
+    p {
+      margin: 1rem auto;
+      font-size: 1rem;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .logo {
+    margin: 0 -6rem;
+  }
+
+  .free-demo {
+    display: block;
+    left: 80%;
+  }
+
+  .top-icons {
+    margin: 1rem auto !important;
+    text-align: center;
+    justify-content: center;
+    width: 200px;
+
+    .icon {
+      width: 100px;
+    }
+  }
+
+  form {
+    margin: 1rem 0 !important;
+  }
+  .typing {
+    margin-top: 1rem;
+    justify-content: center;
+    h2 {
+      font-size: 1.5rem;
+
+      text-align: center;
+    }
+    .yellow-div {
+      text-align: center;
+      margin: 1rem auto;
+    }
+
+    p {
+      margin: 1rem auto;
+      font-size: 1rem;
+    }
+  }
+}
