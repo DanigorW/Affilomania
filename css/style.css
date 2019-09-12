@@ -160,8 +160,7 @@ form {
   .logo {
     margin: 0 -6rem; }
   .free-demo {
-    display: block;
-    left: 80%; }
+    display: none; }
   .top-icons {
     margin: 1rem auto !important;
     text-align: center;
